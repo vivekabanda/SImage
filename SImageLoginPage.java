@@ -24,6 +24,8 @@ public class SImageLoginPage {
 			Thread.sleep(20000);
 			homepage.moveToToggleButton();
 			homepage.clickOnLogInButton();
+			
+			driver.close();
 
 		
 	
